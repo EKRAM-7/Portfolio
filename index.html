@@ -5,33 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+    <title>Ekram Khan</title>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+                <a href="#about-me">About Me</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#my-skills">My Skills</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#works">My Work</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
+                <span></span>
+            </li>
         </ul>
-        <div id="hamburger-menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="user-name">
-            <h1>Ekram Khan</h1>
-        </div>
-
     </nav>
-    <div class="toggle-element">
-        <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>  
+    <div class="hamburger-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <div class="container">
+        <section id="about-me">
+            <div class="about-me">
+                <div class="text">
+                    <p class="hi">Hi,</p>
+                    <p class="my-name">I am Ekram Khan,</p>
+                    <p class="more-about-me">a Frontend Developer, based in Assam, India.</p>
+                    <p class="background">Currently, I am a student pursuing a Computer Science degree at Darrang
+                        College, Assam.
+                    </p>
+                    <a href="#" class="resume-btn">
+                        <button>RESUME</button>
+                    </a>
+                    <div class="social-media">
+                        <a href="#"><img src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000"
+                                alt="github"></a>
+                        <a href="#"><img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000"
+                                alt="linkedin"></a>
+                        <a href="#"><img src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000"
+                                alt="x"></a>
+
+                    </div>
+                </div>
+                <div class="my-photo">
+                    <img src="dev.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="my-skills" id="my-skills">
+            <h3>SKILLS</h3> <br>
+            <div class="skills-list">
+                <div class="html-logo">
+                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="html logo">
+                </div>
+                <div class="css-logo">
+                    <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="css logo">
+                </div>
+                <div class="js-logo">
+                    <img src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="js logo">
+                </div>
+                <div class="react-logo">
+                    <img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
+                        alt="react logo">
+                </div>
+                <div class="tailwind-logo">
+                    <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000"
+                        alt="tailwind logo">
+                </div>
+                <div class="git-logo">
+                    <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="git logo">
+                </div>
+                <div class="python-logo">
+                    <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="python logo">
+                </div>
+                <div class="sql-logo">
+                    <img src="https://img.icons8.com/?size=100&id=UFF3hmipmJ2V&format=png&color=000000" alt="sql logo">
+                </div>
+            </div>
+        </section>
+
+        <section id="works">
+            <h3>MY PROJECTS</h3>
+            <div class="work-list">
+                <div>
+                    <h2>Chess</h2>
+                    <p class="work-desc">A simple Game of Chess made using pure HTML, CSS and JavaScript</p>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h3>CONTACT ME</h3>
+            <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+            <form>
+                <div class="name-input input-box">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+
+                <div class="email-input input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="msg-input input-box">
+                    <label for="msg">Message</label>
+                    <textarea cols="30" rows="10" placeholder="Write your message"></textarea>
+                </div>
+
+                <button>SUBMIT</button>
+            </form>
+        </section>
+    </div>
 </body>
 <script src="script.js"></script>
 
