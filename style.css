@@ -107,7 +107,7 @@ nav ul li:hover span {
 .container {
     margin-left: 200px;
     flex-grow: 1;
-    width: 100%;
+    width: 100dvw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
