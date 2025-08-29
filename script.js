@@ -48,7 +48,10 @@ function hideNav() {
     bars[1].style.transition = "0.5s"
 }
 
-
+if (window.outerWidth <= 768) {
+    let workSection = document.getElementById('works');
+    console.log(workSection);
+}
 
 works.forEach((div) => {
     div.addEventListener('mouseenter', function() {
@@ -67,3 +70,8 @@ works.forEach((div) => {
     });
 
 });
+
+
+
+// console.log(window.outerHeight, window.outerWidth); //768
+

@@ -4,7 +4,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Oswald", sans-serif;
+    font-family: "Baskervville", sans-serif;
 }
 
 html, body {
@@ -258,7 +258,6 @@ nav ul li:hover span {
 
 #works {
     height: 89vh;
-    /* border: 2px solid white; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -351,15 +350,21 @@ nav ul li:hover span {
     /* transform: rotate(-90deg); */
     position: absolute;
     display: none;
+    /* opacity: 0; */
     left: 50%;
     transform: translate(-50%, 0%);
     font-size: 2.5rem;
+}
+
+.work-list div h2 a {
+    text-decoration: none;
 }
 
 .work-desc {
     font-weight: 900;
     display: none;
     color: blue;
+    bottom: 0%;
 }
 
 .work-list div:hover .work-desc {
@@ -482,11 +487,10 @@ nav ul li:hover span {
     }
 
     .work-list {
-        justify-content: "";
         flex-direction: column;
         flex-grow: 1;
-        max-height: fit-content;
         width: 90%;
+        height: 100%;
     }
 
     #contact form {
